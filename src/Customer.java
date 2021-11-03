@@ -1,6 +1,6 @@
 public class Customer extends Account{
-    private String firstName;
-    private String lastName;
+    private final String firstName;
+    private final String lastName;
     private Account account;
 
     public Customer(String firstName, String lastName) {
@@ -25,4 +25,5 @@ public class Customer extends Account{
     public void setAccount(Account acct) {
         this.account = acct;
     }
+
 }
